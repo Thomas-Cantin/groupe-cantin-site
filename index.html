@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta charset="UTF-8">
+  <title>Thomas Cantin – Accompagnement dirigeants TPE/PME industrielles</title>
+
+  <meta name="description" content="Accompagnement des dirigeants de TPE et PME industrielles pour structurer l'organisation, clarifier les décisions et gagner en sérénité.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSCWP0X3P0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XSCWP0X3P0');
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #0d0820;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    main { display: block; }
+
+    section {
+      width: 100%;
+      padding: 70px 0;
+    }
+
+    /* Sections alternées avec contraste marqué */
+    section:nth-of-type(odd) {
+      background: #0d0820;
+    }
+
+    section:nth-of-type(even) {
+      background: #1a1340;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 2.4em;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin: 0 0 28px;
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 18px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 24px auto;
+      max-width: 600px;
+    }
+
+    li {
+      margin-bottom: 14px;
+      font-size: 1.05em;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 90px 0 70px;
+      background: linear-gradient(135deg, #0d0820 0%, #1a1340 100%);
+    }
+
+    .hero h1:first-of-type {
+      font-size: 3em;
+      margin-bottom: 48px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+
+    .hero .tagline {
+      font-size: 1.2em;
+      margin-bottom: 28px;
+      font-weight: 600;
+      color: #e0d5ff;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 32px;
+      padding: 16px 36px;
+      background: #ffffff;
+      color: #0d0820;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 1.05em;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(255,255,255,0.15);
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(255,255,255,0.25);
+      background: #f0f0f0;
+    }
+
+    /* PROFIL */
+    .profile img {
+      max-width: 280px;
+      border-radius: 8px;
+      margin: 32px auto 28px;
+      display: block;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    /* CTA */
+    .cta {
+      background: linear-gradient(135deg, #2a1d6b 0%, #3d2a8f 100%);
+      padding: 70px 0;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.08);
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    /* MENTIONS LEGALES */
+    .legal {
+      text-align: left;
+      font-size: 0.85em;
+      line-height: 1.5;
+      color: #cccccc;
+      padding-top: 40px;
+    }
+
+    .legal p {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: #999999;
+      padding: 32px 24px;
+      background: #0d0820;
+    }
+
+    /* PROCESS BOX */
+    .process-box {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 32px;
+      margin: 32px auto;
+      max-width: 650px;
+    }
+
+    .process-box h3 {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      color: #e0d5ff;
+    }
+
+    .process-box p {
+      margin-bottom: 16px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      body { font-size: 17px; }
+      
+      section { padding: 50px 0; }
+      
+      h1 { font-size: 2em; }
+      h2 { font-size: 1.5em; }
+      
+      .hero { padding: 70px 0 50px; }
+      
+      .hero h1:first-of-type { 
+        font-size: 2.2em; 
+        margin-bottom: 36px;
+      }
+      
+      .container { padding: 0 20px; }
+      
+      .button {
+        padding: 14px 28px;
+        font-size: 1em;
+      }
+      
+      .process-box {
+        padding: 24px 20px;
+      }
+    }
+  </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:_dlc_DocId msdt:dt="string">Z2C53QR2YC4T-411227393-907205</mso:_dlc_DocId>
+<mso:_dlc_DocIdItemGuid msdt:dt="string">a2c10ccc-daa3-48e6-8dfa-4dfdb766d1ed</mso:_dlc_DocIdItemGuid>
+<mso:_dlc_DocIdUrl msdt:dt="string">https://cantin85.sharepoint.com/sites/Data/_layouts/15/DocIdRedir.aspx?ID=Z2C53QR2YC4T-411227393-907205, Z2C53QR2YC4T-411227393-907205</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+<main>
+
+<section class="hero">
+  <div class="container">
+    <h1>Thomas CANTIN</h1>
+
+    <h1 style="font-size: 2.4em; margin-bottom: 20px;">Clarifier, décider, structurer</h1>
+    <p class="tagline">Accompagnement de dirigeants TPE/PME industrielles</p>
+    <p>Retrouver une maîtrise durable de votre entreprise.</p>
+
+    <a href="https://outlook.office.com/bookwithme/user/8d84a52ba48945348132db75cc899acf@carrosserie-cantin.fr?anonymous"
+       class="button" target="_blank"
+       onclick="gtag('event','clic_booking_hero');">
+       Prendre rendez-vous
+    </a>
+
+    <p style="font-size:0.85em; margin-top:16px; opacity:0.75;">
+      Via Microsoft Bookings
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Situations fréquentes chez les dirigeants</h2>
+    <p>Vous validez encore la majorité des décisions : devis clients, commandes fournisseurs, recrutements...</p>
+    <p>Difficile de prendre deux semaines de congé avec sérénité.</p>
+    <p>Vous savez qu'il faut structurer, déléguer, clarifier — mais par où commencer ?</p>
+    <p>Vos outils et process sont devenus inadaptés à la taille actuelle de l'entreprise.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Mon approche</h2>
+    <p>
+      Pas de méthode préemballée. Un regard externe de quelqu'un qui vit encore les mêmes réalités que vous.
+    </p>
+    <p>
+      Dirigeant de PME industrielle depuis 18 ans, je connais les contraintes du terrain : piloter sous tension, structurer sans bloquer, décider avec des moyens limités.
+    </p>
+    <p>
+      Je vous aide à clarifier vos priorités réelles et à prendre les décisions qui comptent, sans théorie ni solution toute faite.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Comment ça se passe</h2>
+    
+    <div class="process-box">
+      <h3>Premier échange — Gratuit</h3>
+      <p>30 à 45 minutes pour clarifier votre situation et identifier vos priorités réelles.</p>
+      <p style="margin-bottom: 0;">Sans engagement. Présentiel et/ou distanciel.</p>
+    </div>
+
+    <p style="margin-top: 40px; font-size: 1.1em; font-weight: 600;">
+      Si on décide de poursuivre :
+    </p>
+    
+    <p>
+      Je vous accompagne pour clarifier les vrais enjeux, prioriser et décider sur les sujets structurants, retrouver un pilotage maîtrisé de votre organisation.
+    </p>
+    
+    <p>
+      <strong>Accompagnement sur mesure, dans la durée.</strong><br>
+      Pas de diagnostic imposé, pas de livrables formatés.
+    </p>
+  </div>
+</section>
+
+<section class="profile">
+  <div class="container">
+    <h2>Mon parcours</h2>
+
+    <img src="images/photo-thomas-cantin.jpg" alt="Thomas Cantin">
+
+    <p>
+      J'ai intégré l'entreprise familiale à 23 ans, en 2008, en pleine crise financière.
+    </p>
+
+    <p>
+      Il m'a fallu prouver ma légitimité dans une période pour le moins inédite. J'ai restructuré, développé, investi pour que l'histoire familiale perdure.
+    </p>
+
+    <p>
+      Un parcours exigeant qui a forgé ma résilience, mon agilité, ma détermination.
+    </p>
+
+    <p style="margin-top: 32px;">
+      <strong>Aujourd'hui, dirigeant de PME industrielle de 30 collaborateurs</strong>, j'accompagne ceux qui veulent reprendre la main sur leur organisation et bâtir une entreprise moins dépendante d'eux.
+    </p>
+
+    <p>
+      Un accompagnement fondé sur la lucidité, la confiance et l'implication directe.
+    </p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Échanger sur votre situation</h2>
+    <p style="margin-bottom: 24px;">Premier échange gratuit, sans engagement.</p>
+
+    <a href="https://outlook.office.com/bookwithme/user/8d84a52ba48945348132db75cc899acf@carrosserie-cantin.fr?anonymous"
+       class="button" target="_blank"
+       onclick="gtag('event','clic_booking_footer');">
+       Planifier un échange
+    </a>
+  </div>
+</section>
+
+<section>
+  <div class="container legal">
+    <h2>Mentions légales</h2>
+    <p><strong>ECLAT – SARL</strong> – SIREN 505 230 516</p>
+    <p>8 chemin des Épinettes – 85000 La Roche-sur-Yon</p>
+    <p>Responsable : Thomas Cantin – t.cantin@groupe-cantin.fr</p>
+    <p>Hébergement : GitHub Pages – GitHub, Inc.</p>
+  </div>
+</section>
+
+<footer>
+  © Thomas Cantin – Tous droits réservés
+</footer>
+
+</main>
+</body>
+</html>
